@@ -1,0 +1,4 @@
+Classification dataset
+- https://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+
+KNN completed at (1:31:53)

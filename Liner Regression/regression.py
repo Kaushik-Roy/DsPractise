@@ -9,7 +9,7 @@ from matplotlib import style
 
 
 # read the data
-data = pd.read_csv("data/student-mat.csv", sep=";")
+data = pd.read_csv("student-mat.csv", sep=";")
 
 # print(data.head())
 
