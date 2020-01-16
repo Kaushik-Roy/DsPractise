@@ -69,3 +69,14 @@ predictions = linear.predict(x_test)
 # print all the predictions
 for x in range(len(predictions)):
     print(f"predict {predictions[x]}, {x_test[x]}, {y_test[x]}")
+
+
+# Implement MATHPLOTLIB
+# p = "failures"
+p = "G1"
+style.use("ggplot")
+# Scatter plot
+pyplot.scatter(data[p], data["G3"])
+pyplot.xlabel(p)
+pyplot.ylabel("Final Grade")
+pyplot.show()
