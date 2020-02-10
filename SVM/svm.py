@@ -31,3 +31,12 @@ y_pred2 = clf2.predict(x_test)
 acc2 = metrics.accuracy_score(y_test, y_pred2)
 
 print(f'KNN {acc2}')
+
+"""
+Referral study links
+
+1. https://scikit-learn.org/stable/datasets/index.html
+2. https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html#sklearn.datasets.load_breast_cancer
+3. https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+"""
+
